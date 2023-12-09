@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Wallpapers</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.webp"
+      type="image/x-icon"
+    />
+    <!-- bootstrap cdn link css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- swiper css cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Icons cdn Javascript  -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-0">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="./index.html">
+          <img
+            src="./assets/images/menu.gif"
+            width="44"
+            height="44"
+            class="object-fit-cover rounded-circle"
+            alt=""
+          />
+          ANIME</a
+        >
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="ph ph-list fs-1 text-white"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./slideshow.html">Slide_Show</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wallpapers.html">Wallpapers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact_US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Landing area section start >> -->
+    <section class="landing_area py-40">
+      <div class="container-lg container-fluid px-0 pb-5">
+        <div
+          class="row g-0 w-100 pt-40 justify-content-center align-items-center"
+        >
+          <div class="col-lg-8 col-12">
+            <div class="text-center">
+              <h1 class="main_heading text-uppercase">
+                anime wallpapers <br /><span class="gtext d-block h-100">
+                  for all fans.</span
+                >
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="row gx-4 m-0 mt-5 pt-5 justify-content-center align-items-center"
+        >
+          <div class="col-xl-2 d-xl-block d-none">
+            <div class="p-2 rounded-4 bg-white frame_img">
+              <img
+                class="rounded-4"
+                src="./assets/images/card1.webp"
+                alt=""
+                style="--heightimg: 250px"
+              />
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+            <div class="p-sm-2 p-1 rounded-4 bg-white frame_img">
+              <img
+                class="rounded-4"
+                src="./assets/images/card2-1.webp"
+                alt=""
+                style="--heightimg: 300px; object-position: center;"
+              />
+            </div>
+            <div class="p-sm-2 p-1 rounded-4 bg-white frame_img">
+              <img
+                class="rounded-4"
+                src="./assets/images/card2-2.webp"
+                alt=""
+                style="--heightimg: 300px; object-position: center"
+              />
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 d-md-block d-none">
+            <div class="p-sm-2 p-1 rounded-4 bg-white frame_img">
+              <img
+                class="rounded-4"
+                src="./assets/images/card3.webp"
+                alt=""
+                style="--heightimg: 550px; object-position: center"
+              />
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+            <div class="p-sm-2 p-1 rounded-4 bg-white frame_img">
+              <img
+                class="rounded-4"
+                src="./assets/images/card4-1.webp"
+                alt=""
+                style="--heightimg: 300px; object-position: center;"
+              />
+            </div>
+            <div class="p-sm-2 p-1 rounded-4 bg-white frame_img">
+              <img
+                class="rounded-4"
+                src="./assets/images/card4-2.webp"
+                alt=""
+                style="--heightimg: 300px"
+              />
+            </div>
+          </div>
+          <div class="col-xl-2 d-xl-block d-none">
+            <div class="p-sm-2 p-1 rounded-4 bg-white frame_img">
+              <img
+                class="rounded-4"
+                src="./assets/images/card5.webp"
+                alt=""
+                style="--heightimg: 250px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- WAVE LINE START >> -->
+    <div class="d-flex justify-content-center align-items-center">
+      <svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--emojione-monotone"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M47 41c-5.594 0-10.145-4.201-10.145-9.363c0-2.472-2.177-4.482-4.855-4.482s-4.855 2.011-4.855 4.482C27.145 36.799 22.594 41 17 41S6.855 36.799 6.855 31.637c0-1.271-.59-2.489-1.616-3.339c-.889-.739-2.042-1.144-3.239-1.144V23c2.309 0 4.526.784 6.245 2.204c1.975 1.639 3.111 3.981 3.111 6.433c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208C22.644 26.874 26.842 23 32 23s9.356 3.874 9.356 8.637c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208c0-2.451 1.137-4.794 3.112-6.433C57.474 23.784 59.691 23 62 23v4.154c-1.197 0-2.35.404-3.238 1.144c-1.027.85-1.617 2.067-1.617 3.339C57.145 36.799 52.594 41 47 41"
+          fill="#dd00ec"
+        ></path>
+      </svg>
+      <svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--emojione-monotone"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M47 41c-5.594 0-10.145-4.201-10.145-9.363c0-2.472-2.177-4.482-4.855-4.482s-4.855 2.011-4.855 4.482C27.145 36.799 22.594 41 17 41S6.855 36.799 6.855 31.637c0-1.271-.59-2.489-1.616-3.339c-.889-.739-2.042-1.144-3.239-1.144V23c2.309 0 4.526.784 6.245 2.204c1.975 1.639 3.111 3.981 3.111 6.433c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208C22.644 26.874 26.842 23 32 23s9.356 3.874 9.356 8.637c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208c0-2.451 1.137-4.794 3.112-6.433C57.474 23.784 59.691 23 62 23v4.154c-1.197 0-2.35.404-3.238 1.144c-1.027.85-1.617 2.067-1.617 3.339C57.145 36.799 52.594 41 47 41"
+          fill="#741ff5"
+        ></path>
+      </svg>
+    </div>
+    <!-- WAVE LINE END << -->
+
+    <!-- Gallery section start >> -->
+    <section
+      class="gallery_section d-flex justify-content-center align-items-stretch py-40"
+    >
+      <div class="container py-5">
+        <div class="row gy-4">
+          <div class="col-lg-6 col-12">
+            <div class="row row-cols-3 gy-4">
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card1.webp"
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="
+                      object-position: top;
+                      border-radius: 25px 190px 190px 190px;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card2-1.webp"
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="
+                      border-radius: 190px 190px 25px 25px;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card2-2.webp"
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="
+                      object-position: center;
+                      border-radius: 190px 25px 190px 190px;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card4-1.webp"
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="
+                      object-position: center;
+                      border-radius: 190px 25px 25px 190px;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card3.webp"
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="object-position: top; border-radius: 50%"
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card4-2.webp"
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="
+                      object-position: top;
+                      border-radius: 25px 190px 190px 25px;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card5.webp"
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="
+                      object-position: top;
+                      border-radius: 190px 190px 190px 25px;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card6.webp"
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="
+                      object-position: top;
+                      border-radius: 25px 25px 190px 190px;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="gallery_imgs"
+                  style="width: 100%; aspect-ratio: 1/1"
+                >
+                  <img
+                    src="./assets/images/card7.webp "
+                    class="w-100 h-100 object-fit-cover"
+                    alt=""
+                    style="
+                      object-position: top;
+                      border-radius: 190px 190px 25px 190px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 align-self-center">
+            <div class="text-start ps-lg-5">
+              <h1 class="main_heading text-uppercase">
+                gallery <br /><span class="gtext d-block h-100">
+                  COLLECTION</span
+                >
+              </h1>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                fuga, rerum quidem repellat accusantium error mollitia
+                doloremque eum odio deserunt, adipisci itaque! Non odit itaque
+                nemo aut, voluptatem culpa illum!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                repellendus aut obcaecati nam odit aperiam harum ducimus vitae
+                ex nisi soluta cumque facere praesentium, veniam autem! Qui sunt
+                explicabo tempora!ś
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery section end >> -->
+
+    <!-- WAVE LINE START >> -->
+    <div class="d-flex justify-content-center align-items-center">
+      <svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--emojione-monotone"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M47 41c-5.594 0-10.145-4.201-10.145-9.363c0-2.472-2.177-4.482-4.855-4.482s-4.855 2.011-4.855 4.482C27.145 36.799 22.594 41 17 41S6.855 36.799 6.855 31.637c0-1.271-.59-2.489-1.616-3.339c-.889-.739-2.042-1.144-3.239-1.144V23c2.309 0 4.526.784 6.245 2.204c1.975 1.639 3.111 3.981 3.111 6.433c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208C22.644 26.874 26.842 23 32 23s9.356 3.874 9.356 8.637c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208c0-2.451 1.137-4.794 3.112-6.433C57.474 23.784 59.691 23 62 23v4.154c-1.197 0-2.35.404-3.238 1.144c-1.027.85-1.617 2.067-1.617 3.339C57.145 36.799 52.594 41 47 41"
+          fill="#dd00ec"
+        ></path>
+      </svg>
+      <svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--emojione-monotone"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M47 41c-5.594 0-10.145-4.201-10.145-9.363c0-2.472-2.177-4.482-4.855-4.482s-4.855 2.011-4.855 4.482C27.145 36.799 22.594 41 17 41S6.855 36.799 6.855 31.637c0-1.271-.59-2.489-1.616-3.339c-.889-.739-2.042-1.144-3.239-1.144V23c2.309 0 4.526.784 6.245 2.204c1.975 1.639 3.111 3.981 3.111 6.433c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208C22.644 26.874 26.842 23 32 23s9.356 3.874 9.356 8.637c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208c0-2.451 1.137-4.794 3.112-6.433C57.474 23.784 59.691 23 62 23v4.154c-1.197 0-2.35.404-3.238 1.144c-1.027.85-1.617 2.067-1.617 3.339C57.145 36.799 52.594 41 47 41"
+          fill="#741ff5"
+        ></path>
+      </svg>
+    </div>
+    <!-- WAVE LINE END << -->
+
+    <!-- Wallpaper cards section start >> -->
+    <section class="wallpaper_cards py-40">
+      <div class="container-lg py-5">
+        <div class="row g-0 w-100 justify-content-center align-items-center">
+          <div class="col-lg-8 col-12">
+            <div class="text-center">
+              <h1 class="main_heading text-uppercase">
+                our
+                <span class="gtext d-inline-block h-100">team </span>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 justify-content-center align-items-start">
+          <div class="col-lg-9 col-12">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card border-0">
+                    <img src="./assets/images/user1.webp" alt="" />
+                    <div class="card-body text-center">
+                      <h2 class="card-title gtext fw-bold">Oliver</h2>
+                      <p class="card-text fs-5">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                      <button
+                        class="btn border border-1 fw-bold border-black gtext"
+                      >
+                        View More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card border-0">
+                    <img src="./assets/images/user2.webp" alt="" />
+                    <div class="card-body text-center">
+                      <h2 class="card-title gtext fw-bold">Ella</h2>
+                      <p class="card-text fs-5">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                      <button
+                        class="btn border border-1 fw-bold border-black gtext"
+                      >
+                        View More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card border-0">
+                    <img src="./assets/images/user3.webp" alt="" />
+                    <div class="card-body text-center">
+                      <h2 class="card-title gtext fw-bold">Lucas</h2>
+                      <p class="card-text fs-5">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                      <button
+                        class="btn border border-1 fw-bold border-black gtext"
+                      >
+                        View More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card border-0">
+                    <img src="./assets/images/user4.webp" alt="" />
+                    <div class="card-body text-center">
+                      <h2 class="card-title gtext fw-bold">Jacob</h2>
+                      <p class="card-text fs-5">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                      <button
+                        class="btn border border-1 fw-bold border-black gtext"
+                      >
+                        View More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card border-0">
+                    <img src="./assets/images/user5.webp" alt="" />
+                    <div class="card-body text-center">
+                      <h2 class="card-title gtext fw-bold">James</h2>
+                      <p class="card-text fs-5">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                      <button
+                        class="btn border border-1 fw-bold border-black gtext"
+                      >
+                        View More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Wallpaper cards section end << -->
+
+    <!-- WAVE LINE START >> -->
+    <div class="d-flex justify-content-center align-items-center">
+      <svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--emojione-monotone"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M47 41c-5.594 0-10.145-4.201-10.145-9.363c0-2.472-2.177-4.482-4.855-4.482s-4.855 2.011-4.855 4.482C27.145 36.799 22.594 41 17 41S6.855 36.799 6.855 31.637c0-1.271-.59-2.489-1.616-3.339c-.889-.739-2.042-1.144-3.239-1.144V23c2.309 0 4.526.784 6.245 2.204c1.975 1.639 3.111 3.981 3.111 6.433c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208C22.644 26.874 26.842 23 32 23s9.356 3.874 9.356 8.637c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208c0-2.451 1.137-4.794 3.112-6.433C57.474 23.784 59.691 23 62 23v4.154c-1.197 0-2.35.404-3.238 1.144c-1.027.85-1.617 2.067-1.617 3.339C57.145 36.799 52.594 41 47 41"
+          fill="#dd00ec"
+        ></path>
+      </svg>
+      <svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--emojione-monotone"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M47 41c-5.594 0-10.145-4.201-10.145-9.363c0-2.472-2.177-4.482-4.855-4.482s-4.855 2.011-4.855 4.482C27.145 36.799 22.594 41 17 41S6.855 36.799 6.855 31.637c0-1.271-.59-2.489-1.616-3.339c-.889-.739-2.042-1.144-3.239-1.144V23c2.309 0 4.526.784 6.245 2.204c1.975 1.639 3.111 3.981 3.111 6.433c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208C22.644 26.874 26.842 23 32 23s9.356 3.874 9.356 8.637c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208c0-2.451 1.137-4.794 3.112-6.433C57.474 23.784 59.691 23 62 23v4.154c-1.197 0-2.35.404-3.238 1.144c-1.027.85-1.617 2.067-1.617 3.339C57.145 36.799 52.594 41 47 41"
+          fill="#741ff5"
+        ></path>
+      </svg>
+    </div>
+    <!-- WAVE LINE END << -->
+    <!-- Character list section start >>  -->
+
+    <section class="charater_list py-40">
+      <div class="container py-5">
+        <div class="row g-0 w-100 justify-content-center align-items-center">
+          <div class="col-lg-8 col-12">
+            <div class="text-center">
+              <h1 class="main_heading text-uppercase">
+                <span class="gtext d-inline-block h-100">character </span>
+                list
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row row-cols-lg-3 row-cols-md-2 row-cols-1 justify-content-center align-items-center gy-4 pt-5"
+        >
+          <div class="col">
+            <div
+              class="card"
+              style="
+                --cardbg: url(https://c4.wallpaperflare.com/wallpaper/672/578/501/manga-naruto-shippuuden-uzumaki-naruto-uchiha-sasuke-wallpaper-preview.jpg);
+              "
+            >
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/772/105/265/naruto-shippuuden-anime-fox-hatake-kakashi-wallpaper-preview.jpg"
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/414/432/59/uchiha-sasuke-naruto-shippuden-uchiha-itachi-1366x768-anime-naruto-hd-art-wallpaper-preview.jpg"
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/891/276/834/uchiha-sasuke-uchiha-itachi-brothers-naruto-shippuuden-wallpaper-preview.jpg"
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/186/830/450/anime-naruto-akatsuki-naruto-deidara-naruto-wallpaper-preview.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card"
+              style="
+                --cardbg: url(https://c4.wallpaperflare.com/wallpaper/566/684/979/dragon-ball-super-saiyan-blue-son-goku-dragon-ball-super-wallpaper-thumb.jpg);
+              "
+            >
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/823/1023/805/son-goku-anime-saiyan-dragon-ball-z-digital-art-hd-wallpaper-preview.jpg"
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/367/173/269/dragon-ball-dragon-ball-z-son-goku-anime-wallpaper-preview.jpg"
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/336/920/974/dragon-ball-anime-boys-goku-black-black-goku-son-goku-hd-wallpaper-preview.jpg"
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/424/108/950/dragon-ball-dragon-ball-super-anime-goku-wallpaper-preview.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card"
+              style="
+                --cardbg: url(https://c4.wallpaperflare.com/wallpaper/316/886/460/anime-one-piece-zoro-roronoa-wallpaper-preview.jpg);
+              "
+            >
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/372/804/903/jump-force-goku-naruto-luffy-4k-8k-wallpaper-preview.jpg  "
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/617/747/808/anime-one-piece-monkey-d-luffy-wallpaper-preview.jpg"
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/999/476/964/anime-anime-boys-one-piece-monkey-d-luffy-wallpaper-preview.jpg"
+                alt=""
+              />
+              <img
+                src="https://c4.wallpaperflare.com/wallpaper/308/176/843/one-piece-monkey-d-luffy-1920x1080-anime-one-piece-hd-art-wallpaper-preview.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Caracter list section end << -->
+    <!-- WAVE LINE START >> -->
+    <div class="d-flex justify-content-center align-items-center">
+      <svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--emojione-monotone"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M47 41c-5.594 0-10.145-4.201-10.145-9.363c0-2.472-2.177-4.482-4.855-4.482s-4.855 2.011-4.855 4.482C27.145 36.799 22.594 41 17 41S6.855 36.799 6.855 31.637c0-1.271-.59-2.489-1.616-3.339c-.889-.739-2.042-1.144-3.239-1.144V23c2.309 0 4.526.784 6.245 2.204c1.975 1.639 3.111 3.981 3.111 6.433c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208C22.644 26.874 26.842 23 32 23s9.356 3.874 9.356 8.637c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208c0-2.451 1.137-4.794 3.112-6.433C57.474 23.784 59.691 23 62 23v4.154c-1.197 0-2.35.404-3.238 1.144c-1.027.85-1.617 2.067-1.617 3.339C57.145 36.799 52.594 41 47 41"
+          fill="#dd00ec"
+        ></path>
+      </svg>
+      <svg
+        width="100px"
+        height="100px"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        aria-hidden="true"
+        role="img"
+        class="iconify iconify--emojione-monotone"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="M47 41c-5.594 0-10.145-4.201-10.145-9.363c0-2.472-2.177-4.482-4.855-4.482s-4.855 2.011-4.855 4.482C27.145 36.799 22.594 41 17 41S6.855 36.799 6.855 31.637c0-1.271-.59-2.489-1.616-3.339c-.889-.739-2.042-1.144-3.239-1.144V23c2.309 0 4.526.784 6.245 2.204c1.975 1.639 3.111 3.981 3.111 6.433c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208C22.644 26.874 26.842 23 32 23s9.356 3.874 9.356 8.637c0 2.872 2.53 5.208 5.644 5.208s5.644-2.336 5.644-5.208c0-2.451 1.137-4.794 3.112-6.433C57.474 23.784 59.691 23 62 23v4.154c-1.197 0-2.35.404-3.238 1.144c-1.027.85-1.617 2.067-1.617 3.339C57.145 36.799 52.594 41 47 41"
+          fill="#741ff5"
+        ></path>
+      </svg>
+    </div>
+    <!-- WAVE LINE END << -->
+
+    <!-- Contact us section start >> -->
+    <section id="contact" class="contact_us py-40">
+      <div class="container pb-5 pt-4">
+        <div class="row justify-content-between align-items-stretch">
+          <div class="col-lg-8 col-md-6 col-sm-12 col-12">
+            <img
+              src="./assets/images/bg9.webp"
+              class="w-100 h-100 object-fit-cover rounded-start-5 shadow-lg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div
+              class="card h-100 border-0 text-center d-flex justify-content-center align-items-center rounded-end-5 rounded-start-0 overflow-hidden py-4 px-lg-4 px-md-3 px-2 shadow"
+            >
+              <h3 class="fw-bold gtext fs-1 mb-4">Contact_US</h3>
+              <p class="fs-5 mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto deserunt est nihil. Unde, omnis!
+              </p>
+
+              <a
+                href="./contact.html"
+                class="btn text-decoration-none border border-1 fw-bold border-black gtext"
+              >
+                View More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact us section end << -->
+
+    <!-- Footer section start >> -->
+    <footer class="shadow-lg mt-5">
+      <div class="container">
+        <div class="row justify-content-between align-items-center py-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="text-lg-start text-center">
+              <a class="navbar-brand fw-bold fs-3" href="./index.html">
+                <img
+                  src="./assets/images/menu.gif"
+                  width="55"
+                  height="55"
+                  class="object-fit-cover rounded-circle"
+                  alt=""
+                />
+                ANIME</a
+              >
+
+              <p class="fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+                iure numquam excepturi recusandae ipsum odio.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-12">
+            <ul
+              class="list-unstyled flex-wrap d-flex justify-content-md-end justify-content-center gap-4 align-items-center"
+            >
+              <li class="text-sm-start text-center">
+                <a
+                  class="fs-14"
+                  target="_blank"
+                  href="https://www.facebook.com/topntechsolutions"
+                >
+                  <img
+                    src="https://www.topntech.com/assets/images/facebook.png"
+                    class="w-33"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="text-sm-start text-center">
+                <a
+                  class="fs-14"
+                  target="_blank"
+                  href="https://www.instagram.com/topntech/"
+                >
+                  <img
+                    src="https://www.topntech.com/assets/images/instagram.png"
+                    class="w-33"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="text-sm-start text-center">
+                <a
+                  class="fs-14"
+                  target="_blank"
+                  href="https://twitter.com/topntech1"
+                >
+                  <img
+                    src="https://www.topntech.com/assets/images/twitter.png"
+                    class="w-33"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="text-sm-start text-center">
+                <a
+                  class="fs-14"
+                  target="_blank"
+                  href="https://www.linkedin.com/company/topntech-solutions/"
+                >
+                  <img
+                    src="https://www.topntech.com/assets/images/linkedin.png"
+                    class="w-33"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="text-sm-start text-center">
+                <a
+                  class="fs-14"
+                  target="_blank"
+                  href="https://wa.me/+919914327671"
+                >
+                  <img
+                    src="https://www.topntech.com/assets/images/whatsapp.png"
+                    class="w-33"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 border-top border-dark">
+            <div class="text-center text-capitalize py-4">
+              <h5>@Copyright wallpapers (wallpaperflare.com)</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section end << -->
+    <!-- swiper js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="./assets/js/script.js"></script>
+    <!-- Bootstrap cdn js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
